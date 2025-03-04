@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameed Ahmed - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Very light grey */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4a6572, #34495e); /* Darker, muted gradient */
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            font-size: 32px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #e8e8e8; /* Lighter grey nav */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            margin: 0 25px;
+            text-decoration: none;
+            color: #4a6572; /* Darker link color */
+            font-weight: 500;
+            font-size: 19px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #34495e;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 50px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4a6572;
+            border-bottom: 3px solid #ddd;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .skills, .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .skill, .project {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: left;
+            border: 1px solid #eee;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .skill:hover, .project:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .project strong {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #e8e8e8;
+            color: #777;
+            font-size: 17px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 12px;
+            font-size: 18px;
+        }
+
+        a {
+            color: #4a6572;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sameed Ahmed</h1>
+        <p>Machine Learning Engineer | Embedded Systems Specialist | Researcher</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>With a robust background in machine learning, embedded systems, and research, I specialize in developing AI-driven solutions for edge computing and automation. My expertise spans precision agriculture, robotics, and advanced signal processing. I am passionate about creating impactful technologies that address real-world challenges.</p>
+    </section>
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <div class="skill"><strong>Programming:</strong> Python, C++</div>
+            <div class="skill"><strong>Machine Learning:</strong> Scikit-Learn, Pandas</div>
+            <div class="skill"><strong>Signal Processing:</strong> MATLAB, Simulink</div>
+            <div class="skill"><strong>Embedded Systems:</strong> Microcontrollers, Raspberry Pi, Arduino</div>
+            <div class="skill"><strong>Networking:</strong> TCP/IP, UDP, HTTP</div>
+            <div class="skill"><strong>Operating Systems:</strong> Windows, Linux, Mac</div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <strong>RoboFarm:</strong>
+                AI-optimized edge computing for precision agriculture, enhancing crop yield and resource efficiency.
+            </div>
+            <div class="project">
+                <strong>Buckle Classification:</strong>
+                Deep Learning model for automated defect detection in industrial manufacturing, improving quality control.
+            </div>
+            <div class="project">
+                <strong>UAV Collision Avoidance:</strong>
+                Master thesis on trajectory optimization for unmanned aerial vehicles, ensuring safe and efficient navigation.
+            </div>
+            <div class="project">
+                <strong>Mobile Edge Computing:</strong>
+                Thesis on resource allocation in MEC environments, optimizing performance for latency-sensitive applications.
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>MSc in Systems Engineering - University of South-Eastern Norway</li>
+            <li>MSc in Communication Networks - University of Bristol, UK</li>
+            <li>BSc in Computer Science - University of Bradford, UK</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:sameed.ahmed@live.com">sameed.ahmed@live.com</a></p>
+        <p>Phone: <a href="tel:+393312622959">+39 331 2622 959</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/sameed-ahmed-aa254469" target="_blank">linkedin.com/in/sameed-ahmed</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Sameed Ahmed. All rights reserved.</p>
+    </footer>
+</body>
+</html>
